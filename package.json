@@ -1,0 +1,26 @@
+{
+  "name": "import-sort-style-react",
+  "version": "1.0.0",
+  "description": "Dylan's import sort style for react",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib"
+  },
+  "author": "Dylan Kennedy",
+  "license": "UNLICENSED",
+  "directories": {
+    "lib": "lib"
+  },
+  "files": [
+    "lib"
+  ],
+  "pre-commit": [
+    "build"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "pre-commit": "^1.2.2"
+  }
+}
