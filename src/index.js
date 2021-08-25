@@ -19,6 +19,7 @@ export default function(styleApi) {
     startsWithLowerCase,
     startsWithUpperCase,
     unicode,
+    moduleName,
   } = styleApi;
 
   const isReactModule = imported =>
