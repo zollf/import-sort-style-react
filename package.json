@@ -1,6 +1,6 @@
 {
   "name": "import-sort-style-react",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Dylan's import sort style for react",
   "main": "lib/index.js",
   "scripts": {

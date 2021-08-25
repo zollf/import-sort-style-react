@@ -21,6 +21,9 @@ export default function(styleApi) {
     unicode,
   } = styleApi;
 
+  const isReactModule = imported =>
+    Boolean(imported.moduleName.match(/^(react|prop-types|redux|mobx|classcat|enzyme)/));
+    
   const reactComparator = (name1, name2) => {
     let i1 = fixedOrder.indexOf(name1);
     let i2 = fixedOrder.indexOf(name2);
