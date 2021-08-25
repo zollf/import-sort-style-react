@@ -2,6 +2,7 @@ const fixedOrder = ['react', 'prop-types'];
 
 export default function(styleApi) {
   const {
+    alias,
     and,
     hasDefaultMember,
     hasNamedMembers,
